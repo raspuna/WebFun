@@ -7,42 +7,42 @@
         <H1> Registration From</H1>
         <p>
             First Name: *
-            <input type="text">
+            <input type="text" name="first_name">
         </p>
         <p>
             Last Name: *
-            <input type="text">
+            <input type="text" name="last_name">
         </p>
         <p>
             Email Address: *
-            <input type="text">
+            <input type="text" name="email">
         </p>
         <p>
             Password: *
-            <input type="password">
+            <input type="password" name="passwd">
         </p>
         <p>
             Confirm Password: *
-            <input type="password">
+            <input type="password" name="confirmed_passwd">
         </p>
         <p>
             Birthday:
-            <input type="date">
+            <input type="date" name="dob">
         </p>
         <p>
             Gender Identity:
         </p>
         <p>
-            <input type=radio>Male
-            <input type=radio>Female
-            <input type=radio>Non-binary
-            <input type=radio>I prefer not to answer
+            <input type=radio name="gender" value="M"> <lable value="M">Male</lable>
+            <input type=radio name="gender" value="F"> <lable value="F">Female</lable>
+            <input type=radio name="gender" value="N"> <lable value="N">Non-binary</lable>
+            <input type=radio name="gender" value="not_answered"> <lable value="not_answered">I prefer not to answer</lable>
         </p>
         <p>
             A short description about myself:
         </p>
         <p>
-            <textarea rows="4" cols="50"></textarea>
+            <textarea name="myself" rows="4" cols="50"></textarea>
         </p>
         <p>
             Favorite Language: 
