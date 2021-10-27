@@ -1,0 +1,24 @@
+h1 {
+    background-color: black;
+    text-weight:bold;
+    font-family:Franklin Gothic Medium;
+}
+h2 {
+    text-align:center;
+    font-style:italic;
+    color: whitesmoke;
+    background-color: rebeccapurple;
+}
+h3 {
+    text-align:right;
+    text-decoration:underline;
+    color:midnightblue;
+    background-color: skyblue;
+}
+
+#white {
+    color:white;
+}
+#cyan {
+    color: cyan;
+}
