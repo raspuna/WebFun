@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    color: midnightblue;
+}
+h3 {
+    font-family: cursive;
+    color: cornflowerblue;
+}
+* {
+    font-family: monospace;
+}
+a {
+    text-decoration:none;
+    
+}
+a.lor {
+    color:lightseagreen;
+}
