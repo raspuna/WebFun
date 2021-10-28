@@ -1,21 +1,26 @@
 h1 {
+    padding: 3px;
     background-color: black;
     text-weight:bold;
     font-family:Franklin Gothic Medium;
 }
 h2 {
+    padding: 3px;
     text-align:center;
     font-style:italic;
     color: whitesmoke;
     background-color: rebeccapurple;
 }
 h3 {
+    padding: 3px;
     text-align:right;
     text-decoration:underline;
     color:midnightblue;
     background-color: skyblue;
 }
-
+* {
+    margin: 5px;
+}
 #white {
     color:white;
 }
