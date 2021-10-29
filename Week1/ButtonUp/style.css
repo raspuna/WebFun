@@ -1,0 +1,32 @@
+#round-green{
+    color:lightseagreen;
+    border: 2px solid;
+    border-color: lightseagreen;
+    border-radius: 15px;
+    padding: 5px 45px;
+    font-weight:bold;
+
+}
+#plus-circle{
+    background-color: #00d1b2;
+    color: white;
+    border: 0px;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 35px;
+    height: 35px;
+}
+#blue-rectangle{
+    background-color: #2b78e4;
+    color: whitesmoke;
+    padding: 5px 25px;
+    font-size: 17px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+}
+body{
+    margin: 30px;
+}
+div{
+    margin: 15px;
+}
