@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-title {
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+li {
+    padding: 0px 10px;
+}
+a {
+    color: gainsboro;
+    font-size: 10pt;
+    text-decoration: none;
+}
+a.active {
+    color: white;
+}
+h1 {
+    color: white;
+    padding: 10px;
+    font-family: Roboto-Bold;
+}
+body{
+    background-color: #292929;
+}
+.btn {
+    background-color: rgb(60, 161, 179);
+    font-size: 11pt;
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    font-family: Roboto-Light;
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src:url("./Roboto/Roboto-Bold.ttf");
+}
+@font-face{
+    font-family: Rogoto-Light;
+    src:url("./Roboto/Roboto-Light.ttf");
+}
