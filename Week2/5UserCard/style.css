@@ -1,0 +1,69 @@
+/* undohtml.css */
+/* (CC) 2004 Tantek Celik. Some Rights Reserved.                  */
+/* http://creativecommons.org/licenses/by/2.0                     */
+/* This style sheet is licensed under a Creative Commons License. */
+
+ul, ol {
+	list-style: none;
+	}
+ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, 
+form, body, html, p, blockquote, fieldset, input {
+	padding: 0;
+	margin: 0;
+	}
+address {
+	font-style: normal;
+	}
+/* CSS resets end */
+
+img {
+    width: 10px;
+}
+img#user-circle{
+    width: 80px;
+    border: 3px solid silver;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+.container {
+    width: 100%;
+    margin-top: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column nowrap;
+}
+#top-background {
+    background-color: #48aec7;
+    border: 3px solid #48aec7; 
+    width: 50%;
+    height: 85px;
+    margin-top:20px;
+    align-self:center;
+}
+#bottom-background {
+    border-left: 3px solid silver;
+    border-right: 3px solid silver;
+    border-bottom: 3px solid silver;
+    height: 210px;
+    width: 50%;
+    background-color: white;
+    align-self:center;
+}
+#content {
+    position: absolute;
+    top: 65px;
+    margin-top: 30px;
+    width: 50%;
+    align-self:center;
+}
+p {
+    padding: 10px 0px;
+}
+a {
+    text-decoration: underline;
+    color: steelblue;
+}
+.tab{
+    margin: 0px 30px;
+}
