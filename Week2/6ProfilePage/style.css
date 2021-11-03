@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Balsamiq-sans, Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-background{
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+}
+.navbar-left{
+    display: flex;
+    justify-content: left;
+}
+.navbar-left h1 {
+    color: white;
+    padding: 10px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: gainsboro;
+}
+.navbar-right{
+    padding: 10px;    
+}
+.navbar a {
+    color: gainsboro;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.navbar a.active {
+    color: white;
+}
+li {
+    padding: 0px 10px;
+}
+.btn {
+    background-color: rgb(60, 161, 179);
+    font-size: 15pt;
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    justify-self: right;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.main-content {
+    width: calc(80% - 200px - 20px);
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    margin-bottom: 20px;
+}
+.user-card{
+    margin-bottom: inherit;
+    border: 3px solid silver;
+    overflow: hidden;
+}
+.user-card-header {
+    background-color: #17a2b8;
+    height: 85px;
+    margin-bottom: 70px;
+}
+.education-card {
+    margin-bottom: inherit;
+    overflow: hidden;
+}
+.side-left {
+    padding: 10px;
+    margin-bottom:20px;
+}
+.connection-request {
+    width: 200px;
+    margin-bottom: inherit;
+}
+.connections {
+    width: 200px;
+    margin-bottom: inherit;
+}
+.card-header {
+    background-color: #444;
+    color: white;
+    padding: 10px 10px;
+}
+.card-body{
+    color: black;
+    border-bottom: 3px solid silver;
+    border-right: 3px solid silver;
+    border-left: 3px solid silver;
+    padding: 5px 10px;
+}
+.education-card .card-header{
+    padding: 10px 20px;
+}
+.education-card .card-body {
+    padding: 10px 20px;
+}
+.card-number {
+    background-color: silver;
+    border-radius:50%;
+    padding: 2px 5px;
+    color: black;
+}
+
+.card-headline-style {
+    font-size: 20px;
+}
+.card-date-style {
+    font-size: 17px;
+    color: #777;
+    padding: 4px 0px;
+}
+.make-connection {
+    display: flex;
+    justify-content: space-between;
+}
+.user-card h1{
+    padding: 0px 20px;
+}
+.user-card h3{
+    padding: 10px 20px;
+}
+p{
+    padding: 10px 20px;
+}
+a {
+    text-decoration: underline;
+    color: steelblue;
+}
+.name-single-line{
+    padding: 10px 0px;
+}
+/* image */
+.avatar-m {
+    height: 120px;
+    border: 3px silver solid;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    margin: 20px;
+}
+.img-thumbnail-photo{
+    height: 20px;
+    border-radius: 50%;
+}
+.icon-1 {
+    height: 20px;
+}
+@font-face {
+    font-family: Balsamiq-sans;
+    src:url("./Balsamiq_Sans/BalsamiqSans-Regular.ttf");
+}
