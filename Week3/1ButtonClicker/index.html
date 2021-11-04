@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Button Clicker</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="head-bar-background">
+            <div class="head-bar">
+                <h1>
+                    Dojonary
+                </h1>
+                <form action="#">
+                    <textarea class="search-box">Search</textarea>
+                </form>
+                <button class="btn color-blue" onclick="loginButton(this)">Login</button>
+            </div>
+        </div>
+        <div class="body-background">
+            <div class="body-container">
+                <div class="main-container">
+                    <div class="word-container">
+                        <div class="word-single-container">
+                            <div class="word-box">
+                                <h1>ninja</h1>
+                                <h4>noun</h4>
+                                <h5>
+                                    Plural:ninjas
+                                </h5>
+                                <button class="btn btn-likes" onclick="likeButton(this)">
+                                    13 likes
+                                </button>
+                            </div>
+                            <div class="word-definition">
+                                A practitioner skilled in the 
+                                <a href="#">Japanese</a> 
+                                art of 
+                                <a href="#">ninjutsu</a>
+                            </div>
+                        </div>
+                        <div class="word-single-container">
+                            <div class="word-box">
+                                <h1>ninja</h1>
+                                <h4>noun</h4>
+                                <h5>
+                                    Plural: ninjas
+                                </h5>
+                                <button class="btn btn-likes" onclick="likeButton(this)">
+                                    37 likes
+                                </button>
+                            </div>
+                            <div class="word-definition">
+                                A <a href="#">programmer</a> who breaks down problems with 
+                                <a href="#">zen</a>-like focus
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="add-definition-container">
+                        <h3>
+                            Dojonary is<br>
+                            defined by YOU
+                        </h3>
+                        <button class="btn color-green" onclick="addDefinition(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
