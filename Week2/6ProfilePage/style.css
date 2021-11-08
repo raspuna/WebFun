@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Balsamiq-sans, Verdana, Geneva, Tahoma, sans-serif;
 }
+/* navigation bar */
 .navbar-background{
     background-color: #333;
     width: 100%;
@@ -160,6 +161,7 @@ a {
 .icon-1 {
     height: 20px;
 }
+/* font */
 @font-face {
     font-family: Balsamiq-sans;
     src:url("./Balsamiq_Sans/BalsamiqSans-Regular.ttf");

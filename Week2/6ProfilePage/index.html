@@ -22,28 +22,31 @@
                 </div>
             </div>
         </div>
+        <!-- Navigation bar end -->
+
         <div class="flex-container">
+
             <!-- main content area -->
             <div class="main-content">
                 <div class="user-card">
                     <div class="user-card-header">
                         <img src="images/jane-m.jpg" alt="avatar-image" class="avatar-m">
                     </div>
-                        <h1>Jane Doe</h1>
-                        <h3>
-                            <img src="icons/map-marker.png" alt="pin" class="icon-1">
-                            Seattle
-                        </h3>
-                        <p>
-                            Developer | Engineer | Problem Solver<br>
-                            Master of shadows and the Internet!
-                        </p>
-                        <p>
-                            <a>
-                                <img src="./icons/gear.png" alt="gear" class="icon-1">
-                                edit profile
-                            </a>
-                        </p>
+                    <h1 id="user-id">Jane Doe</h1>
+                    <h3>
+                        <img src="icons/map-marker.png" alt="pin" class="icon-1">
+                        Seattle
+                    </h3>
+                    <p>
+                        Developer | Engineer | Problem Solver<br>
+                        Master of shadows and the Internet!
+                    </p>
+                    <p onclick="editProfile(this)">
+                        <a href="#">
+                            <img src="./icons/gear.png" alt="gear" class="icon-1">
+                            edit profile
+                        </a>
+                    </p>
                 </div>
                 <div class="education-card">
                     <div class="card-header">
@@ -70,7 +73,7 @@
             <div class="side-left">
                 <div class="connection-request">
                     <div class="card-header">
-                        <span class="card-number">2</span>
+                        <span class="card-number" id="request-number">2</span>
                         Connection Request
                     </div>
                     <div class="card-body">
@@ -80,8 +83,8 @@
                                 Todd E
                             </div>
                             <div>
-                                <img src="./icons/accept-circle.png" alt="accept icon" class="icon-1">
-                                <img src="./icons/close-circle.png" alt="close icon" class="icon-1">
+                                <img src="./icons/accept-circle.png" alt="accept icon" class="icon-1" onclick="acceptRequest(this)">
+                                <img src="./icons/close-circle.png" alt="close icon" class="icon-1" onclick="rejectRequest(this)">
                             </div>
                         </div>
                         <div class="make-connection name-single-line">
@@ -90,16 +93,15 @@
                                 Phil K
                             </div>
                             <div>
-                                <img src="./icons/accept-circle.png" alt="accept icon" class="icon-1">
-                                <img src="./icons/close-circle.png" alt="close icon" class="icon-1">
+                                <img src="./icons/accept-circle.png" alt="accept icon" class="icon-1" onclick="acceptRequest(this)">
+                                <img src="./icons/close-circle.png" alt="close icon" class="icon-1" onclick="rejectRequest(this)">
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="connections">
                     <div class="card-header">
-                        <span class="card-number">500+</span> 
+                        <span class="card-number" id="connection-number">418</span> 
                         Your Connections
                     </div>
                     <div class="card-body">
@@ -123,10 +125,9 @@
                     <div class="card-body">
                         <a href="#">View More</a>
                     </div>
-
                 </div>
             </div>
-    
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
