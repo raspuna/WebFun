@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Likes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="head-container">
+            <div class="head-bar">
+                <h1> Network</h1>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="title-bar">
+                <h1>Your Feed</h1>
+            </div>
+            <div class="main-container">
+                <div class="sidebar">
+                    <img src="./user.png" alt="user image">
+                    <br>
+                    <a href="#">add an avatar</a>
+                    <br>
+                    <div class="feed-author">
+                        James Doe
+                    </div>
+                </div>
+                <div class="feed-list">
+                    <div class="feed-box">
+                        <div class="feed-bar">
+                            <div class="feed-author">
+                                Neil M
+                            </div>
+                            <div class="feed-likes">
+                                <div id="neil-m">
+                                    9 like(s)
+                                </div>
+                                <button class="btn" onclick="addLikes('neil-m')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed-comment">
+                            I just set up this new discord bot, let me
+                            know what you all think. <a href="#">link</a>
+                        </div>
+                    </div>
+                    <div class="feed-box">
+                        <div class="feed-bar">
+                            <div class="feed-author">
+                                Nichole K
+                            </div>
+                            <div class="feed-likes">
+                                <div id="nichole-k">
+                                    12 like(s)
+                                </div>
+                                <button class="btn" onclick="addLikes('nichole-k')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed-comment">
+                            Just finished my 
+                            <a href="#">next comic</a>, check it out.
+                        </div>
+                    </div>
+                    <div class="feed-box">
+                        <div class="feed-bar">
+                            <div class="feed-author">
+                                Jim R
+                            </div>
+                            <div class="feed-likes">
+                                <div id="jim-r">
+                                    9 like(s)
+                                </div>
+                                <button class="btn" onclick="addLikes('jim-r')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed-comment">
+                            I can't stop listening to the <a href="#">new album</a>.
+                            <br> 
+                            Who else is liking it?
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+                <script src="script.js"></script>
+    </body>
+</html>

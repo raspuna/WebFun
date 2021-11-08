@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.head-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.head-bar {
+    width: 80%;
+    background-color: #222;
+    color: white;
+}
+.head-bar h1{
+    margin: 10px 20px;
+}
+.body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-bar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.main-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    border: 3px solid black;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+.feed-list{
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.feed-box {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.feed-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 10px 0px;
+}
+.feed-author {
+    font-size: 20pt;
+}
+.feed-comment {
+    padding: 5px 0px;
+}
+.btn {
+    background-color: gold;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+.feed-likes{
+    display: flex;
+    align-items: baseline;
+}
